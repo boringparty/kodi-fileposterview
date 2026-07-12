@@ -38,10 +38,12 @@
 
                         <control type="image">
                             <left>20</left>
-                            <top>200</top>
+                            <top>0</top>
                             <width>200</width>
-                            <height>100</height>
-                            <texture colordiffuse="66000000">colors/black.png</texture>
+                            <height>300</height>
+                            <texture>posterfiles/gradientNoise.png</texture>
+                            <texture colordiffuse="08FFFFFF">posterfiles/white.png</texture>
+                            <aspectratio>stretch</aspectratio>
                         </control>
 
                         <control type="textbox">
@@ -49,7 +51,7 @@
                             <top>208</top>
                             <width>184</width>
                             <height>84</height>
-                            <font>font12</font>
+                            <font>font8_poster</font>
                             <align>center</align>
                             <aligny>top</aligny>
                             <label>$INFO[ListItem.Label]</label>
@@ -85,10 +87,11 @@
 
                         <control type="image">
                             <left>20</left>
-                            <top>200</top>
+                            <top>0</top>
                             <width>200</width>
-                            <height>100</height>
-                            <texture colordiffuse="66000000">colors/black.png</texture>
+                            <height>300</height>
+                            <texture>posterfiles/gradientNoise.png</texture>
+                            <aspectratio>stretch</aspectratio>
                         </control>
 
                         <control type="textbox">
@@ -96,7 +99,7 @@
                             <top>208</top>
                             <width>184</width>
                             <height>84</height>
-                            <font>font12</font>
+                            <font>font8_poster</font>
                             <align>center</align>
                             <aligny>top</aligny>
                             <label>$INFO[ListItem.Label]</label>
