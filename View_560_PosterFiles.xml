@@ -37,12 +37,12 @@
                         </control>
 
                         <control type="image">
+                            <visible>!String.IsEqual(ListItem.Label,..)</visible> 
                             <left>20</left>
                             <top>0</top>
                             <width>200</width>
                             <height>300</height>
                             <texture>posterfiles/gradientNoise.png</texture>
-                            <texture colordiffuse="08FFFFFF">posterfiles/white.png</texture>
                             <aspectratio>stretch</aspectratio>
                         </control>
 
@@ -86,6 +86,7 @@
                         </control>
 
                         <control type="image">
+                            <visible>!String.IsEqual(ListItem.Label,..)</visible> 
                             <left>20</left>
                             <top>0</top>
                             <width>200</width>
