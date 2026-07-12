@@ -1,6 +1,8 @@
 # kodi-fileposterview
-Makes a poster view for files -- ideal for sports and other odds and ends 
 
+This is for Estuary. It isn't perfect, but it will generate something similar to a poster with the file name for items that aren't in the library. 
+
+![Screenshot](screenshot.jpg)
 
 # patches
 
@@ -42,3 +44,8 @@ MyVideoNav.xml
 ```xml
 <include>View_560_PosterFiles</include>
 ```
+
+# Wishlist
+
+- remove text box from `back`
+- add cool overlay to make the captured thumbnails better looking
