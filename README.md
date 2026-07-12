@@ -61,6 +61,5 @@ Save this to /media/posterfiles
 
 # Wishlist
 
-- Remove text box from `back`
 - Configurable number of posters per row
 - Optional filename cleanup (strip extensions, years, etc.)
