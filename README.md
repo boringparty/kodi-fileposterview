@@ -55,6 +55,9 @@ and include the new view:
 ```xml
 <include>View_560_PosterFiles</include>
 ```
+## 5. gradientNoise.png
+
+Save this to /media/posterfiles
 
 # Wishlist
 
