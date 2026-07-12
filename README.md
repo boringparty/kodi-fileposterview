@@ -1,8 +1,15 @@
 # kodi-fileposterview
 
-This is for Estuary. It isn't perfect, but it will generate something similar to a poster with the file name for items that aren't in the library. 
+This is for Estuary. It isn't perfect, but it will generate something similar to a poster with the file name for items that aren't in the library. This pairs well with [my sabnzbd event sorting pre-queue script](https://github.com/boringparty/sabnzbd-pq-ordering).
 
 ![Screenshot](screenshot.jpg)
+
+## Features
+
+- Poster-first artwork (`poster.*`)
+- Falls back to the video's thumbnail
+- Overlay title for files without metadata
+- Optimized for file mode (not library mode)
 
 # Required changes
 
@@ -51,5 +58,7 @@ and include the new view:
 
 # Wishlist
 
-- remove text box from `back`
-- add cool overlay to make the captured thumbnails better looking
+- Remove text box from `back`
+- Better thumbnail overlay / gradient
+- Configurable number of posters per row
+- Optional filename cleanup (strip extensions, years, etc.)
