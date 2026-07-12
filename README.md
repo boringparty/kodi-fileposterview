@@ -4,11 +4,15 @@ This is for Estuary. It isn't perfect, but it will generate something similar to
 
 ![Screenshot](screenshot.jpg)
 
-# patches
+# Required changes
 
-Font.xml
+## 1. Copy
 
-in the Default fontset
+Copy `View_560_PosterFiles.xml` into the skin's `xml` directory.
+
+## 2. Font.xml
+
+Add to the **Default** fontset:
 
 ```xml
 <font>
@@ -20,26 +24,26 @@ in the Default fontset
 </font>
 ```
 
-strings.po
+## 3. strings.po
 
-```
+Add:
+
+```po
 #. viewtype name
 msgctxt "#31990"
 msgid "Poster Files"
 msgstr "Poster Files"
 ```
 
-MyVideoNav.xml
+## 4. MyVideoNav.xml
 
-1. add 560 to `views`
+Add `560` to:
 
 ```xml
-
-	<views>50,51,52,53,54,55,500,501,502,560</views>
-
+<views>50,51,52,53,54,55,500,501,502,560</views>
 ```
 
-2. add in the `include`
+and include the new view:
 
 ```xml
 <include>View_560_PosterFiles</include>
