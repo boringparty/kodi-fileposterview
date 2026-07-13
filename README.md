@@ -60,7 +60,7 @@ and include the new view:
 ```
 ## 5. Images
 
-Save the folder to /addons/skin.estuary/media
+Save the folder to `/addons/skin.estuary/media`
 
 # Wishlist
 
