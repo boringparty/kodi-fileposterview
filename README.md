@@ -27,7 +27,7 @@ Add to the **Default** fontset:
 ```xml
 <font>
   <name>font8_poster</name>
-  <filename>Roboto-Thin.ttf</filename>
+  <filename>NotoSans-Regular.ttf</filename>
   <size>16</size>
   <style>bold</style>
   <linespacing>0.85</linespacing>
