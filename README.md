@@ -4,6 +4,8 @@ This is for Estuary. It isn't perfect, but it will generate something similar to
 
 ![Screenshot](screen.jpg)
 
+* Checkmarks for watched,
+* Red dot for 'in progress'
 
 ## Features
 
