@@ -2,7 +2,7 @@
 
 This is for Estuary. It isn't perfect, but it will generate something similar to a poster with the file name for items that aren't in the library. This pairs well with [my sabnzbd event sorting pre-queue script](https://github.com/boringparty/sabnzbd-pq-ordering).
 
-![Screenshot](screencap.jpg)
+![Screenshot](screen.jpg)
 
 
 ## Features
