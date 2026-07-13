@@ -1,4 +1,4 @@
-# kodi-fileposterview
+# Poster File View for Kodi
 
 This is for Estuary. It isn't perfect, but it will generate something similar to a poster with the file name for items that aren't in the library. This pairs well with [my sabnzbd event sorting pre-queue script](https://github.com/boringparty/sabnzbd-pq-ordering).
 
@@ -56,9 +56,9 @@ and include the new view:
 ```xml
 <include>View_560_PosterFiles</include>
 ```
-## 5. gradientNoise.png
+## 5. Images
 
-Save this to /media/posterfiles
+Save the folder to /addons/skin.estuary/media
 
 # Wishlist
 
